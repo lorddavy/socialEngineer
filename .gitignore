@@ -1,0 +1,21 @@
+# Metadata unneded files
+
+*.tree
+*.fdt
+*.fdx
+*.fnm
+*.frq
+*.nrm
+*.tii
+*.tis
+*segments_1
+
+
+*.log
+*savedIndexNames.txt
+*.ini
+
+.metadata/.log
+.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt
+.metadata/version.ini

@@ -19,7 +19,7 @@
 *.log
 *.lock
 *.ini
-*.version
+#*.version
 *.index
 *.launch
 *.dat

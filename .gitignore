@@ -19,9 +19,9 @@
 *.log
 *.lock
 *.ini
-#*.version
+*.version
 *.index
-*.launch
+#*.launch
 *.dat
 *.xmi
 

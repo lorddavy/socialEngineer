@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue May 31 21:10:26 CEST 2016
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Mart\u00ED\\Desktop\\socialEngineer\\P3_Web\\WebContent\\WEB-INF\\lib\\jasper.jar=WEB-INF/lib/jasper.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Mart\u00ED\\Desktop\\socialEngineer\\P3_Web\\WebContent\\WEB-INF\\lib\\tomcat-websocket.jar=WEB-INF/lib/tomcat-websocket.jar

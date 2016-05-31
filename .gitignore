@@ -1,3 +1,24 @@
+# Metadata ignore
+
+.metadata/.plugins
+.metadata/.log
+
+.metadata/.plugins/org.eclipse.jst.j2ee.web
+.metadata/.plugins/org.eclipse.ltk.core.refactorings
+
+.metadata/.plugins/org.eclipse.wst.sse.core
+.metadata/.plugins/org.eclipse.ltk.core.refactoring
+
+
+
+
+
+.metadata/.plugins/org.eclipse.jst.j2ee.web/webLibrariesCache.index
+.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2016/5/22/refactorings.history
+
+
+
+
 # Metadata unneded files
 
 *.tree
@@ -25,6 +46,8 @@
 *.resources
 *.xmi
 *externalLibsTimeStamps
+
+*.history
 *.index
 *.snap
 
@@ -44,7 +67,6 @@
 
 .metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/P3_Web/
 
-.metadata/.plugins/
-.metadata/.log
+
 
 

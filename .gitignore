@@ -24,3 +24,6 @@
 *.launch
 *.dat
 *.xmi
+
+*.markers
+*.resources

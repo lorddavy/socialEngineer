@@ -33,7 +33,7 @@ public class logoutcontroller extends HttpServlet {
 		
 		//System.out.println("Se ha hecho logout: "+session.toString());
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("login2.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("logout.jsp");
 	    if (dispatcher != null) dispatcher.forward(request, response);
 	}
 

@@ -49,7 +49,7 @@ public class formcontroller extends HttpServlet {
 					RequestDispatcher dispatcher = request.getRequestDispatcher("Registration.html");
 				    if (dispatcher != null) dispatcher.forward(request, response);
 				} else {
-					user.setUser();
+					user.setUserError();
 				    request.setAttribute("user",user);
 				    RequestDispatcher dispatcher = request.getRequestDispatcher("/form.jsp");
 				    if (dispatcher != null) dispatcher.forward(request, response);

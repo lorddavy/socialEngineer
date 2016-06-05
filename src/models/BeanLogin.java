@@ -10,6 +10,13 @@ public class BeanLogin {
 		return error;
 	}
 	
+	public void setLoginError(){
+		
+		//Consultar si login es correcte
+		error[0] = 1;
+		
+	}
+	
 	public boolean isComplete() {
 	    return(hasValue(getNickname()));
 	}

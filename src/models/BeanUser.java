@@ -114,7 +114,7 @@ public class BeanUser {
 	}
 	
 	/*Setters*/
-	public void setUser(){
+	public void setUserError(){
 		
 		//Consultar si existeix un usuari igual a la BD
 		error[0] = 1;

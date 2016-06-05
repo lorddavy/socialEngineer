@@ -58,7 +58,8 @@ public class logincontroller extends HttpServlet {
 				    if (dispatcher != null) dispatcher.forward(request, response);
 				}
 				else{
-				    request.setAttribute("login",login);
+					login.setLoginError();
+					request.setAttribute("login",login);
 				    RequestDispatcher dispatcher = request.getRequestDispatcher("/login.jsp");
 				    if (dispatcher != null) dispatcher.forward(request, response);
 				}

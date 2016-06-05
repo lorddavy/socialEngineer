@@ -44,12 +44,12 @@ public class formcontroller extends HttpServlet {
 				dynamic_page = (ResultSet) connector.executeSQL("SELECT nickname FROM users WHERE nickname = '"+ user.getNickname() +"'");
 				
 				if(!dynamic_page.next()){
-					connector.executeUpdate("INSERT INTO users (nickname, mail, nombre, day, month, year, sexo, contraseña) VALUES ('"+user.getNickname()+"', '"+ user.getMail() +"', '"+ user.getNombre() +"', '"+ user.getDay() +"','"+ user.getMonth() +"', '"+ user.getYear() +"' , '"+ user.getSexo() +"', '"+ user.getContraseña() +"')");
+					connector.executeUpdate("INSERT INTO users (nickname, mail, nombre, day, month, year, sexo, contraseña, admin) VALUES ('"+user.getNickname()+"', '"+ user.getMail() +"', '"+ user.getNombre() +"', '"+ user.getDay() +"','"+ user.getMonth() +"', '"+ user.getYear() +"' , '"+ user.getSexo() +"', '"+ user.getContraseña() +"', '"+ user.getAdmin() +"')");
 					
 					RequestDispatcher dispatcher = request.getRequestDispatcher("Registration.html");
 				    if (dispatcher != null) dispatcher.forward(request, response);
 				} else {
-					user.setUserError();
+					user.setError();
 				    request.setAttribute("user",user);
 				    RequestDispatcher dispatcher = request.getRequestDispatcher("/form.jsp");
 				    if (dispatcher != null) dispatcher.forward(request, response);

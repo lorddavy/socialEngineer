@@ -45,4 +45,11 @@ else {
 <td> <input name="sumbit" type="submit" value="Enviar"> </td>
 </tr>
 </table>
+<% 	
+	if ( login.getError()[0] == 1) {
+		%> 
+		<td class="error"> The user or the password are not correct! Check the inputs. </td>  
+		<% 
+	}
+%>
 </form>

@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title> Practica3 </title>
+<title>Social Engineer</title>
 <link rel="stylesheet" type="text/css" href="css/structure.css" />
 <script type="text/javascript" src="jquery/jquery-1.7.1.js"></script>
 <script type="text/javascript">

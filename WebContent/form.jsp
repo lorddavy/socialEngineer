@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Exemple Formulari </title>
+<title>Social Engineer</title>
 <link rel="stylesheet" type="text/css" href="css/form.css" />
 <script type="text/javascript" src="jquery/jquery-1.7.1.js"></script>
 <script type="text/javascript" src="jquery/jquery.validate.js"></script>

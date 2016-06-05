@@ -4,6 +4,6 @@
 <script type="text/javascript"> 
  $(document).ready(function() {
   $('#content').load('login.jsp');
-  $('#navigation').load('menu3.jsp'); 
+  $('#navigation').load('menu.jsp'); 
  });
  </script>
